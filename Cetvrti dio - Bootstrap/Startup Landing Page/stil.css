@@ -1,0 +1,50 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(slika.jpg) center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn {
+    border-radius: 200px;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.buffer {
+    height: 22rem;
+}
+
+.btn-primary {
+    background-color: coral;
+    border-color: coral;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+    border-width: 4px;
+    border-color: orangered;
+}
+
+h1
+{
+    font-size : 2.5rem;
+    color : #FFFFFF;
+}
+
+hr {
+    color: coral;
+    border: 2px solid coral;
+    max-width: 60px;
+    opacity: 1;
+    margin: 20px auto;
+}
+
+
